@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/hepsiburada-kategori/static/css/main.f6bb6d36.css",
+    "main.js": "/hepsiburada-kategori/static/js/main.e3be9120.js",
+    "static/js/787.e3b6d230.chunk.js": "/hepsiburada-kategori/static/js/787.e3b6d230.chunk.js",
+    "static/media/searchicon.png": "/hepsiburada-kategori/static/media/searchicon.03decbaa235528b711a8.png",
+    "static/media/hepsiburada.png": "/hepsiburada-kategori/static/media/hepsiburada.452b0052744e9447bf7e.png",
+    "index.html": "/hepsiburada-kategori/index.html",
+    "main.f6bb6d36.css.map": "/hepsiburada-kategori/static/css/main.f6bb6d36.css.map",
+    "main.e3be9120.js.map": "/hepsiburada-kategori/static/js/main.e3be9120.js.map",
+    "787.e3b6d230.chunk.js.map": "/hepsiburada-kategori/static/js/787.e3b6d230.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f6bb6d36.css",
+    "static/js/main.e3be9120.js"
+  ]
+}
