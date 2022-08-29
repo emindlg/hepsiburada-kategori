@@ -1,0 +1,506 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+/*--------------------------------------------------*//*---------HEADER-----------*/
+
+.App {
+  position: relative;
+}
+
+.header {
+  width: 100%; 
+  background-color: #fffdfd;
+  height: 108px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 1000px;  
+}
+
+input {
+  width: 325px;
+  height: 40px;
+  border: none;  
+  overflow: visible;
+  outline: none!important;  
+  font-size: 15px;
+  padding-left: 20px;
+}
+
+.App-navbar {  
+  width: 372px;
+  height: 52px;
+  border: 2px solid #919191;
+  overflow: visible;
+  outline: none!important;
+  border-radius:4px 0 0 4px;
+  font-size: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;  
+}
+
+button {
+  width: 66.36px;
+  height: 52px;
+  background-color: #919191;
+  color:#FFFFFF;
+  font-weight: bold;
+  border: 2px solid #919191;
+  font-size: 15px;
+  border-radius:0 4px 4px 0;
+  cursor: pointer;
+}
+
+.icon {
+  width: 35px;  
+  height: 20px;
+  padding-left: 15px;  
+}
+
+.logo {
+  
+  width: 228px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  justify-content:left;  
+}
+
+.header-foot {
+  width: 100%;
+  height: 8px;
+  display: flex;
+  min-width: 1080px;  
+}
+
+.f1 {
+  background-color: #7622DA;
+  width: 15%;
+  height: 8px;
+}
+
+.f2 {
+  background-color: #47C6EB;
+  width: 15%;
+  height: 8px;
+}
+
+.f3 {
+  background-color: #ED5F1F;
+  width: 27%;
+  height: 8px;
+}
+
+.f4 {
+  background-color: #F59F28;
+  width: 15%;
+  height: 8px;
+}
+
+.f5 {
+  background-color: #6B1E5B;
+  width: 13%;
+  height: 8px;
+}
+
+.f6 {
+  background-color: #45B794;
+  width: 15%;
+  height: 8px;
+}
+
+
+
+/*--------------------------------------------------*//*--------- CATEGORY BUTTONS -----------*/
+
+ul.category-list {
+  display: flex;
+  position:relative;
+  background-color: #e9e5e5;
+  min-width: 1080px;
+  justify-content: center;
+  align-items: center;
+  height: 55px;
+}
+
+ul.category-list li {
+  width: 130px;
+  text-align: center;
+  font-weight: 700;
+  height: 55px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10px;
+  border-left: 1px solid rgba(128, 128, 128, 0.114);
+  line-height: 1rem;
+  font-size: 15px;
+  color: #646464;
+}
+
+ul.category-list li:hover {
+  background-color: white;
+  text-decoration: none;
+  color: #FF6000;
+  cursor: pointer;  
+}
+
+
+
+/*--------------------------------------------------*//*--------- CATEGORY ALT-LIST-MENU-----------*/
+
+/*--------elektronik button-------*/
+
+li.elektronik ul{
+  display: none;
+  position:relative;    
+}
+
+li.elektronik:hover ul{
+  display: block;
+  position:absolute;  
+  height: 350px;
+  width: 250px;
+  top: 55px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  border-radius: 0 0 5px 5px;  
+}
+
+ul.elektronik-alt-menu li {
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  height: 35px;
+  width: 250px; 
+  font-size:14px;  
+}
+
+
+
+
+/*--------moda button-------*/
+
+li.moda ul{
+  display: none;
+  position:relative;   
+}
+
+li.moda:hover ul{
+  display: block;
+  position:absolute;  
+  height: 460px;
+  width: 1170px;
+  top: 55px;
+  left: -130px;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  border-radius: 0 0 5px 5px;
+}
+
+ul.moda-alt-menu div {
+ float: left;
+ text-decoration: none; 
+}
+
+ul.moda-alt-menu li {
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  width: 250px; 
+  height: 35px;
+  font-size:13px;
+  font-weight:400;
+}
+
+
+
+
+/*--------ev yaşam kırtasiye ofis button-------*/
+
+li.ev ul{
+  display: none;
+  position:relative;   
+}
+
+li.ev:hover ul{
+  display: block;
+  position:absolute;  
+  height: 460px;
+  width: 1170px;
+  top: 55px;
+  left: -260px;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  border-radius: 0 0 5px 5px;
+}
+
+ul.ev-alt-menu div {
+ float: left;
+ text-decoration: none; 
+}
+
+ul.ev-alt-menu li {
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  width: 250px; 
+  height: 35px;
+  font-size:13px;
+  font-weight:400;
+}
+
+
+
+/*--------oto bahçe yapı market button-------*/
+
+li.oto ul{
+  display: none;
+  position:relative;   
+}
+
+li.oto:hover ul{
+  display: block;
+  position:absolute;  
+  height: 460px;
+  width: 1170px;
+  top: 55px;
+  left: -390px;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  border-radius: 0 0 5px 5px;
+}
+
+ul.oto-alt-menu div {
+ float: left;
+ text-decoration: none; 
+}
+
+ul.oto-alt-menu li {
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  width: 250px; 
+  height: 35px;
+  font-size:13px;
+  font-weight:400;
+}
+
+
+
+/*--------Anne bebek oyuncak button-------*/
+
+li.oyuncak ul{
+  display: none;
+  position:relative;   
+}
+
+li.oyuncak:hover ul{
+  display: block;
+  position:absolute;  
+  height: 460px;
+  width: 1170px;
+  top: 55px;
+  left: -520px;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  border-radius: 0 0 5px 5px;
+}
+
+ul.oyuncak-alt-menu div {
+ float: left;
+ text-decoration: none; 
+}
+
+ul.oyuncak-alt-menu li {
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  width: 250px; 
+  height: 35px;
+  font-size:13px;
+  font-weight:400;
+}
+
+
+
+/*--------spor outdoor button-------*/
+
+li.spor ul{
+  display: none;
+  position:relative;   
+}
+
+li.spor:hover ul{
+  display: block;
+  position:absolute;  
+  height: 460px;
+  width: 1170px;
+  top: 55px;
+  left: -650px;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  border-radius: 0 0 5px 5px;
+}
+
+ul.spor-alt-menu div {
+ float: left;
+ text-decoration: none; 
+}
+
+ul.spor-alt-menu li {
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  width: 250px; 
+  height: 35px;
+  font-size:13px;
+  font-weight:400;
+}
+
+
+
+/*--------kozmetik button-------*/
+
+li.kozmetik ul{
+  display: none;
+  position:relative;   
+}
+
+li.kozmetik:hover ul{
+  display: block;
+  position:absolute;  
+  height: 460px;
+  width: 1170px;
+  top: 55px;
+  left: -780px;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  border-radius: 0 0 5px 5px;
+}
+
+ul.kozmetik-alt-menu div {
+ float: left;
+ text-decoration: none; 
+}
+
+ul.kozmetik-alt-menu li {
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  width: 250px; 
+  height: 35px;
+  font-size:13px;
+  font-weight:400;
+}
+
+
+
+/*--------süpermarket button-------*/
+
+li.market ul{
+  display: none;
+  position:relative;   
+}
+
+li.market:hover ul{
+  display: block;
+  position:absolute;  
+  height: 460px;
+  width: 1170px;
+  top: 55px;
+  left: -910px;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  border-radius: 0 0 5px 5px;
+}
+
+ul.market-alt-menu div {
+ float: left;
+ text-decoration: none; 
+}
+
+ul.market-alt-menu li {
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  width: 250px; 
+  height: 35px;
+  font-size:13px;
+  font-weight:400;
+}
+
+
+
+/*--------kitap müzik film button-------*/
+
+li.kitap ul{
+  display: none;
+  position:relative;   
+}
+
+li.kitap:hover ul{
+  display: block;
+  position:absolute;  
+  height: 460px;
+  width: 1170px;
+  top: 55px;
+  left: -1040px;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  border-radius: 0 0 5px 5px;
+}
+
+ul.kitap-alt-menu div {
+ float: left;
+ text-decoration: none; 
+}
+
+ul.kitap-alt-menu li {
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  width: 250px; 
+  height: 35px;
+  font-size:13px;
+  font-weight:400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------------*//*-------- LINEAR BACKGROUND---------*/
+
+.main{
+  background-image: linear-gradient(35deg, #2F7DBE , #F99945, #921B63);
+  width: 100%;
+  height:600px;
+  min-width:1080px
+}
